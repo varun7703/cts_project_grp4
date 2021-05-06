@@ -1,0 +1,21 @@
+.order{
+
+    border : 2px solid rgb(75, 36, 75);
+    margin: 10px;
+    height: 100px;
+}
+.order:hover {
+    box-shadow: 2px;
+}
+
+.col {
+    margin : 20px;
+}
+
+button {
+    border : 2px solid#aedb65;
+    background-color: #aedb65;
+}
+button:hover {
+    background-color: #70ad0d;
+}

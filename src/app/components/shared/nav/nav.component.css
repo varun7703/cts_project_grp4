@@ -1,0 +1,99 @@
+
+
+.topnav {
+  overflow: hidden;
+  background-image: linear-gradient(to right, #E7717D , #e8967b); 
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+}
+
+
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 17px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(75, 36, 75);
+  color: white;
+  margin-bottom: none;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 8px;
+  border: none;
+  margin-top: 9px;
+  /* margin-right: 10px; */
+  font-size: 17px;
+  width: 450px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2px;
+}
+
+.topnav img {
+    float: right;
+    padding-right: 50px;
+}
+
+
+.topnav .search-container {
+  float:right;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 8px 14px;
+  margin-top: 9px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+
+
+  ul {
+ 
+  display:block;
+  list-style-type: none;
+
+}
+
+li {
+  display: inline;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 8px;
+
+}
+
+/* ................ */
+
+
+
+  .categories-nav {
+    width: 100%;
+    background-color:rgb(248, 246, 246);
+    text-align: center;
+    height: 30px;
+    margin-bottom: 20px; 
+    
+  }

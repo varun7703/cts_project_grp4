@@ -1,0 +1,166 @@
+.review {
+    margin-left: 250px;
+    height : 850px;
+    width: 600px;
+    border: 2px whitesmoke;
+    margin-bottom: 20px;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+}
+
+.buyer-det, .del-addr {
+    margin :15px;
+    border: 2px solid rgb(75,36, 75);
+    height: 90px;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+}
+.payment-op {
+    margin-top: 20px;
+    margin :15px;
+    border: 2px solid rgb(75,36, 75);
+    height: 300px;
+    width:570px;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    float: left;
+}
+.order-summary{
+    height:260px;
+    margin :15px;
+    border: 2px solid rgb(75,36, 75);
+    
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+
+}
+.container {
+    display : block;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    height: 200px;
+}
+.ammount {
+    height : 200px;
+    width : 300px;
+    border: 2px solid rgb(75, 36, 75); 
+    margin: 0px 20px 20px 20px;  
+    font-family: 'Abel', sans-serif;
+    font-size: 14px; 
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    
+    
+  }
+  
+  .flex-container > div {
+    background-color: whitesmoke;
+    width: 10px;
+    margin: 10px;
+    text-align: center;
+    
+    
+    width:200px;
+    font-family: 'Abel', sans-serif;
+    font-size: 12px;
+    
+  }
+  .cont{
+      
+      float: right;
+      font-family: 'Abel', sans-serif;
+      font-size: 14px;
+      border-radius: 4px;
+      background-color: coral;
+    color: solid black;
+    align-content: center;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+ 
+  .quan{
+    
+    border-radius: 4px;
+    color: solid black;
+    align-content: center;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .quantity {
+     }
+   
+   .quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+   }
+   
+   .quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align:top ;
+    box-shadow: none;
+   }
+   
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+    padding: 7px 20px 8px;
+    height: 41px;
+    background-color: #ffffff;
+    border: 5px solid #efefef;
+    cursor:pointer;}
+   
+   .quantity.buttons_added .minus {
+    border-right: 0; }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0; }
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+    background: #eeeeee; }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; }
+    .button{
+ 
+        border : 2px solid#aedb65;
+        background-color:white;
+        color: solid black;
+        
+        padding: 5px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }

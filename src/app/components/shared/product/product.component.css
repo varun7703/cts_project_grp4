@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom :29px;
+}
+
+.product-img{
+    border: 2px solid rgb(75, 36, 75);
+    height: 380px;
+    width : 350px;
+}
+.btn1 , .btn2 {
+    margin: 25px;
+
+}
+
+.btn1 {
+    border : 2px solid #e8967b;
+    background-color : #e8967b;
+}
+
+.btn1:hover {
+    background-color : #ce603b;
+}
+
+
+.btn2 {
+    border : 2px solid #AFD275;
+    background-color : #AFD275;
+}
+
+.btn2:hover {
+    background-color : #91d327;
+}
+
+.btn3 {
+    float : right ;
+    border : 2px solid #eedd42;
+    background-color : #eedd42;
+}
+
+.btn3:hover {
+    background-color :#f8b524;
+}

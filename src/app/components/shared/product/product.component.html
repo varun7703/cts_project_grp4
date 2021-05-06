@@ -1,0 +1,44 @@
+<app-nav></app-nav>
+
+<div class="container">
+    <div class="row">
+        
+        <div class="col-md-5">
+            <div class="product-img">
+            <button class="btn btn3" (click)="addwish(books._id)">wishList</button>
+                <img src={{books.thumbnailUrl}}>
+            </div>
+            <button class="btn btn1" (click)="addtocart(books._id)">Add To Cart </button>
+            <button class="btn btn2" (click)="conforder(books._id)">Place Order</button>
+
+        </div>
+        
+        
+        <div class="col-md-7" >
+        <ul>
+            <li>{{books.title}}</li>
+            <li> Cost : {{books.price}} {{books.currency}}</li>
+            <li>Avail Discount : {{books.discount}}  {{books.currency}}</li>
+            <li>Page Count : {{books.pageCount}}</li>
+            
+            <li>Description : {{books.longDescription}}</li>
+            <li>Auther : {{books.authors}}</li>
+    
+
+        </ul>
+        </div>
+       
+
+
+    </div>
+</div>
+
+
+            <!-- recommendations -->
+            <div class="row">
+                <div class="col">
+
+                </div>
+            </div>
+               <!-- recommendations -->
+<app-footer></app-footer>

@@ -1,0 +1,80 @@
+<!-- 
+  <div class="header">
+    <img src="./logo edit.jpg" alt="HomeBooks" > 
+
+    <div class="search-box">
+      <form action="">
+        <input type="text" placeholder="Search for books">
+      </form>
+    </div>
+    <div class="nav">
+        <a class="p-2 text-dark" [routerLink]="['/shop']">My Orders</a>
+        <a class="p-2 text-dark" href="#">My Account</a>
+        <a class="p-2 text-dark" href="#">Admin</a>
+        <a class="p-2 text-dark" href="#">WishList</a>
+        <a class="p-2 text-dark" href="#">Cart</a>
+    
+      <a href="#" [routerLink]="['/register']">Sign up</a>
+      <a href="#"  [routerLink]="['/login']">Login</a>
+    </div>
+
+  </div> -->
+
+  <!-- <div class="topnav">
+    <img src="./logo edit.jpg" alt="HomeBooks" routerLink = "/"> 
+    <a href="#contact">Cart</a>
+    <a href="#contact">WishList</a>
+    <a href="#contact">Admin</a>
+    <a href="#home">My Orders</a>
+    <a href="#about">My Account</a>
+    <a href="#" class="search-btn"><button class="btn"><i class="fa fa-search"></i> </button> </a>
+    <input class="search"type="text" placeholder="Search.."> 
+  </div> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+  <div class="topnav">
+      <a href="/login" style="margin-right: 35px;">Login</a>
+      <a href="/cart">Cart</a>
+    <a href="/wishlist">WishList</a>
+    <a href="#contact">Admin</a>
+    <a href="/myorder">My Orders</a>
+    <a href="/myacc">My Account</a>
+  
+      <div class="search-container">
+          <form action="/action_page.php">
+              <button type="submit"><i class="fa fa-search"></i></button>
+              <input type="text" placeholder="Search.." name="search">
+          </form>
+      </div>
+  
+      <img [src]="url" alt="HomeBooks" routerLink = "/">
+  
+  </div>
+  
+  <nav class="categories-nav">
+      
+    <div >
+      <ul >
+        <li>
+          <a routerLink = "/java">Java</a>
+        </li>
+        <li >
+          <a routerLink = "/python">Python</a>
+        </li>
+        <li >
+          <a routerLink = "/webdev">Web Development</a>
+        </li>
+        <li >
+          <a  routerLink = "/angular">Angular</a>
+        </li> <li >
+          <a routerLink = "/javasc">JavaScript</a>
+        </li>
+       <li >
+        <a  routerLink = "/datasc">Data Science</a>
+      </li>
+      </ul>
+    </div>
+  </nav>
+  

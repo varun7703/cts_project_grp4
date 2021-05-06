@@ -1,0 +1,16 @@
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" ><h2><b>My Wishlist</b></h2></a>
+      </div>
+     
+    </div>
+  </nav>
+<div class="flex-container" *ngFor="let book1 of books1">
+  <div><img src="{{book1.thumbnailUrl}}" width="150" height="150" ></div>
+  <div style="flex-shrink: 0">{{book1.title}} <br>
+  $400 <br>
+  </div>
+  <div> <button class="button" (click)="remove(book1._id)">Remove</button></div>
+</div>

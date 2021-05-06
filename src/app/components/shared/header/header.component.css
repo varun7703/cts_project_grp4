@@ -1,0 +1,10 @@
+.header {
+    height: 60px;
+    background-image: linear-gradient(to right, #E7717D , #e8967b);
+    width: 100%;
+    margin-bottom: 8px;
+}
+.head-img {
+    height:30px;
+    width: 35px;
+}

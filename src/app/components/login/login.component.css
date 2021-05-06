@@ -1,0 +1,29 @@
+.abcd {
+    border : 2px solid rgb(75, 36, 75);
+}
+
+.title {
+    margin : 20px 0px 100px 0px;
+}
+
+.btn-register {
+border: 2px solid rgb(214, 128, 214);
+background-color: rgb(214, 128, 214);
+}
+
+.btn-register:hover {
+    background-color: rgb(104, 10, 104);
+    color: white;
+}
+
+.btn-login {
+    float : right;
+    border: 2px solid rgb(214, 128, 214);
+    background-color: rgb(214, 128, 214);
+}
+
+.btn-login:hover {
+
+    background-color: rgb(104, 10, 104);
+    color: white;
+}

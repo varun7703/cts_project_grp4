@@ -1,0 +1,33 @@
+<app-nav></app-nav>
+  <div class="row">
+    <div class="col-md-3">
+      <app-filters></app-filters>
+    </div>
+  
+    <div class="col-md-9">
+        <div class="row">
+            <div class="col-md-4" *ngFor="let book of books">
+                <div class="card mb-4 shadow-sm">
+                    <img src="https://designshack.net/wp-content/uploads/placeholder-image.png">
+                  
+                    <div class="card-body">
+                      
+                      <h4> <p class="card-text">{{book.title}}</p> </h4>
+                      <p class="card-text">{{book.authors[0]}}  </p>
+                      <p class="card-text">{{book.price}}  {{book.currency}}</p><!--{{ productItem.description | slice: 0:80 }}...</p>-->
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button  class="btn button1">Add to Cart</button>
+                          <button  class="btn button2">View Details</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+    </div>
+  
+    
+  </div>
+  <app-footer></app-footer>

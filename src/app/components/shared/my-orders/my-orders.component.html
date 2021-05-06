@@ -1,0 +1,22 @@
+<app-nav></app-nav>
+
+<div class="container">
+
+
+     
+  
+        <div class="order" *ngFor="let book1 of books1">
+            <div class="row">
+          
+                <div  class="col">{{book1.bookName}}</div >
+                <div class="col">{{book1.Category}}</div >
+                <div class="col">{{book1.shortDescription}}</div >
+                <div class="col">{{book1.ammount}}</div >
+                <div class="col"><button  class="btn ">Buy Again</button></div>
+          
+        </div>
+     </div>
+     
+</div>
+
+<app-footer></app-footer>
